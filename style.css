@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, white, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+h1 {
+  font-family: "mastro-display", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #3F1D38;
+  font-size: 150px;
+  margin: 0;
+}
+
+h2 {
+  font-family: "freight-big-pro", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #3F1D38;
+  font-size: 35px;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: "freight-big-pro", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #3F1D38;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+header {
+  padding: 15px 0px;
+  margin: 20px 0px;
+  text-align: center;
+  font-family: "all-round-gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header a {
+  color: #3F1D38;
+  text-decoration: none;
+  margin: 0px 10px;
+  padding: 20px;
+  font-weight: bold;
+  font-size:25px;
+}
+
+.container-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10rem;
+  margin-bottom: 50px;
+}
+
+.recent-work {
+  font-size: 100px;
+  text-align: center;
+  color: #3F1D38;
+  font-family: "mastro-display", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.container-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 50px;
+  }
+
+  .container-box {
+    background-color: aliceblue;
+    text-align: center;
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+  .container-box > h3 > a {
+    font-family: "condor", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    color:#3F1D38 ;
+  }
+
+  .container-bottom {
+    text-align: center;
+    background-color: aliceblue;    
+    font-size: 20px;
+    font-family: "freight-big-pro", serif; ;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    margin: 20px;
+    font-family: "all-round-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .container-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-details p {
+    font-family: "freight-big-pro", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    color: #3F1D38;
+    font-size: 35px;
+  }
+  
+  .connect p {
+    font-family: "mastro-display", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #3F1D38;
+    font-size: 100px;
+    margin-bottom: 0;
+  }
+  .connect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 220px;
+    height: 50px;
+    background-color: aliceblue;
+    margin: 30px;
+    border-radius: 20px;
+    font-family: "all-round-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .btn-text {
+    text-decoration: none;
+    font-size: xx-large;
+    color: #3F1D38;
+  }
+
+  @media (max-width: 1250px) {
+
+    .body {
+      flex-direction: column;
+      height: 100%;
+    }
+    .container-top {
+      flex-direction: column;
+      height: 100%;
+    }
+    .container-middle {
+      flex-direction: column;
+      height: 100%;
+    }
+    .container-bottom {
+      flex-direction: column;
+      height: 100%;
+    }
+    .container-details {
+      flex-direction: column;
+      height: 100%;
+    }
+    .container-connect {
+    flex-direction: column;
+    height: 100%; 
+    }
+  }

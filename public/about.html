@@ -1,0 +1,153 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Nicole Stark's Portfolio</title>
+  <link rel="stylesheet" href="https://use.typekit.net/opg0srq.css">
+<style>
+  body {
+  background: linear-gradient(300deg, #00bfff, white, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  margin: 0;
+}
+
+header {
+  padding: 15px 0px;
+  margin: 20px 0px;
+  text-align: center;
+  font-family: "all-round-gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header a {
+  color: #3F1D38;
+  text-decoration: none;
+  margin: 0px 10px;
+  padding: 20px;
+  font-weight: bold;
+  font-size:25px;
+}
+
+h1 {
+  font-family: "mastro-display", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #3F1D38;
+  font-size: 140px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  display: grid;
+  color: #3F1D38;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 55px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.container-img {
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-auto-rows: auto;
+    margin-bottom: 50px;
+}
+
+.profile-pic {
+    grid-column-start: 5;
+    grid-column-end: 10;
+    border-radius: 360px 360px;
+}
+
+.intro{
+  font-family: "mastro-display", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  grid-column-start: 14;
+  grid-column-end: 23;
+}
+
+
+.intro p{
+  font-family: "freight-big-pro", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #3F1D38;
+  font-size: 35px;
+  margin-top: 0;
+}
+
+.container-bottom {
+    text-align: center;
+    background-color: white;    
+    font-size: 20px;
+    font-family: "freight-big-pro", serif; ;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    margin: 40px;
+    font-family: "all-round-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @media (max-width: 1250px) {
+    .body {
+      flex-direction: column;
+      height: 100%;
+    }
+    .profile-pic {
+    height: 300px;
+    display: grid;
+    grid-column-start: 2;
+    }
+    h2 {
+    display:inline; 
+    font-size: 40px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <a href="../index.html">Home</a> 
+  <a href="about.html">About Me</a> 
+  <a href="resume.html">Resume</a>      
+</header>
+
+  <div class="title">
+    <h1>About Me.</h1>
+  </div>
+
+<div class="container-img-top">      
+    <div class="container-img">
+        <img class="profile-pic" src="../assets/images/Profile pic.jpg" alt="profile picture" height="600">
+    <div  class="intro">
+      <h2>A newbie web developer in the making working from Tokyo, Japan. </h2>
+        <p> I'm really excited to dive into the world of web development and soak up all the knowledge I can get. 
+          While I might be just starting out, I've got a ton of enthusiasm and a whole lot of determination to 
+          learn the ropes. I'm all about crafting cool stuff online and I'm ready to roll up my sleeves and get coding. 
+          Let's do this!
+        </p>     
+    </div>
+  </div>
+
+<div class="container-bottom">
+  <a class="footer-link" href="">Linkedin</a>
+  <a class="footer-link" href="">Instagram</a>          
+  <p class="copyright">© Nicole Stark</p>
+</div>
+
+</body>
